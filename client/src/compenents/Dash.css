@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poetsen+One&display=swap');
+
+.App {
+    text-align: center;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+.dashboard {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #2e2e2e5d;  
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    display: flex;  
+    justify-content: flex-end;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.list {
+    list-style-type: none;
+    padding: 10px;
+    margin:0;
+    font-family: "Freeman", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.list li {
+    margin-right: 80px;
+    
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+    position: absolute;
+    left: 30px;
+    color: rgb(35, 209, 154);
+}
+  
+.list li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.list li a:hover {
+    color: rgb(35, 209, 154);
+}
+
+.dropdown-container {
+    position: relative;
+    
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    z-index: 1001;
+    padding: 10px 0;
+    white-space: nowrap;
+    border-radius: 20px;
+}
+
+.dropdown-container:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: block;
+    margin-right: 0;
+   
+}
+
+.dropdown li a {
+    padding: 10px 20px;
+    display: block;
+    color: #333;
+}
+
+.dropdown li a:hover {
+    background-color: rgba(35, 209, 154, 0.1);
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&family=Orbitron:wght@400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.love {
+    position: relative;
+    text-align: left;
+    color: rgb(1, 0, 0);
+}
+
+.love img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+    animation: joinFadeIn 3s ease-in-out;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: joinSlideIn 2s ease-out;
+}
+
+.left-text {
+    max-width: 50%;
+    color: black;
+    border-left: 5px solid rgb(26, 125, 93);
+    padding-left: 20px;
+    animation: joinFadeInText 3s ease-in-out;
+}
+
+.left-text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 6em;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgba(0, 0, 0, 0.564);
+
+}
+
+.left-text p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.left-text button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(27, 177, 129);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.left-text button a {
+    color: white;
+    text-decoration: none;
+}
+
+.left-text button a:hover {
+    text-decoration: underline;
+}
+
+.right-image img {
+    width: 530px;
+    height: auto;
+    opacity: 0.9;
+    padding-bottom: 50px;
+    animation: joinFadeIn 3s ease-in-out;
+}
+
+.join-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    animation: joinFadeIn 3s ease-in-out;
+}
+
+.input-field {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.join-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+/* Animations */
+@keyframes joinFadeIn {
+    from { opacity: 0.5; }
+    to { opacity: 0.8; }
+}
+
+@keyframes joinSlideIn {
+    from { transform: translate(-50%, -150%); }
+    to { transform: translate(-50%, -50%); }
+}
+
+@keyframes joinFadeInText {
+    from { opacity: 0.7; transform: translateX(-20px); }
+    to { opacity: 0.7; transform: translateX(0); }
+}
+
+.jo{
+    color:black;
+}

@@ -1,0 +1,476 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.haunted-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-graveyard {
+    text-align: center;
+    background-color: #8a96902f;
+    color: rgb(0, 0, 0);
+    padding: 120px 20px;
+    width: 100vw;
+    box-sizing: border-box;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    animation: fadeIn 2s ease-in-out;
+}
+
+.main-scream {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color:rgb(67, 145, 107);
+}
+
+.main-curse {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.talk-fright {
+    background-color: rgb(67, 182, 126);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-graveyard button
+{
+
+    color:#d9d9d9;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+
+
+}
+
+.choice-dread h1
+{
+    text-align: center;
+    font-size: 2.5em;
+    color:black;
+}
+
+.choice-dread p
+{
+    text-align: left;
+    font-size: 1.2em;
+    padding-left: 40px;
+  
+}
+
+.choice-dread {
+    
+
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    margin-left: 400px;
+    text-align:left;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+
+
+ .glimpse-terror {
+    background-color: #82838609;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    animation: slideIn 1.5s ease-in-out;
+    text-align: center; /* Center all content */
+    width: 100%;
+    box-sizing: border-box;
+    color: #4a4a4a;
+   
+}
+
+.glimpse-scare {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center; 
+    color: #4a4a4a;/* Center content horizontally */
+}
+
+.glimpse-scare h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    flex: 0 0 auto;
+    width: 50%;
+    text-align: left;
+    color: #4a4a4a; /* Align text to the left */
+}
+
+.glimpse-scare p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-left: 20px;
+    flex: 1 1 auto;
+    width: 50%;
+    text-align: left; /* Align text to the left */
+}
+
+
+
+
+.section-phantom {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #38d2a6;
+    display: inline-block;
+    padding-bottom: 5px;
+    color: #4a4a4a;
+}
+
+.glimpse-scare {
+    margin-bottom: 20px;
+}
+
+.glimpse-scare h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+.glimpse-scare p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4a4a4a;
+}
+
+.process-nightmare {
+    background-color: #c0e4c3;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+.process-horror {
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+.process-horror h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+.process-horror p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.niche-crypt {
+    background-color: rgba(66, 63, 63, 0.187);
+    padding: 200px 100px;
+    margin-bottom: 10px;
+    animation: slideIn 1.5s ease-in-out;
+    position:relative;
+    margin-top: 100px;
+    border-radius: 50px;
+
+}
+
+.niche-crypt h1
+{
+    position: absolute;
+    top:50px;
+    left:100px;
+    color: #4a4a4a;
+
+}
+.niche-creepy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4a4a4a;
+}
+
+.niche-creepy p {
+    flex: 1;
+    margin-right: -10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.niche-tombstones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: absolute;
+    left:800px;
+}
+
+.niche-tombstone {
+    background-color: #f9f9f9;
+    padding: 20px;
+    padding-right:20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: calc(33% - 20px);
+    animation: fadeIn 2s ease-in-out;
+}
+
+.niche-tombstone p
+{
+    text-align: center;
+}
+
+.niche-tombstone:hover {
+    transform: translateY(-5px);
+}
+
+.niche-tombstone::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: #30a783;
+    transition: width 0.3s ease;
+}
+
+.niche-tombstone:hover::after {
+    width: 100%;
+}
+
+.icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.faq-phantasm {
+    background-color: #8283860d;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    animation: slideIn 1.5s ease-in-out;
+    padding: 120px 20px;
+    width: 100vw;
+    box-sizing: border-box;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    
+
+}
+
+.faq-spook {
+    margin-bottom: 20px;
+}
+
+.faq-shriek {
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-ghoul {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+.semicircle-section {
+    position: relative;
+    margin-top: -50px; /* Adjust margin as needed */
+  }
+  
+  .semicircle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 -50px;
+  }
+  
+  .semicircle {
+    width: 300px;
+    height: 180px;
+    background-color: #de2323;
+    border-radius: 300px 300px 0 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .semicircle:hover {
+    transform: scale(1.1);
+    background-color: #cd0d0d;
+
+  }
+  
+  .label {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #4a4a4a;
+    position: absolute;
+    bottom: 20px; /* Position labels under semicircles */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.3s ease-in-out; /* Add transition property */
+  }
+  
+  
+  /* Adjust colors if needed */
+  .semicircle.planning {
+    background-color: rgba(21, 150, 128, 0.295);
+    width: 200px;
+    height: 100px;
+     /* Light red */
+  }
+
+  .semicircle.planning:hover{
+    background-color: rgba(21, 150, 128, 0.911);
+  }
+  
+  .semicircle.design {
+    background-color: rgba(21, 150, 128, 0.295); /* Dark red */
+  }
+
+  .semicircle.design:hover{
+    background-color: rgba(21, 150, 128, 0.911);
+  }
+  
+  .semicircle.development {
+    background-color: rgba(21, 150, 128, 0.295);
+    width: 500px;
+    height:300px; /* Medium red */
+  }
+
+  .semicircle.development:hover{
+    background-color: rgba(21, 150, 128, 0.911);
+  }
+  
+  .semicircle.quality-assurance {
+    background-color: rgba(21, 150, 128, 0.295); /* Pale red */
+  }
+
+  .semicircle.quality-assurance:hover{
+    background-color: rgba(21, 150, 128, 0.911);
+  }
+  
+  .semicircle.support {
+    background-color:rgba(21, 150, 128, 0.295);
+    width: 200px;
+    height: 100px; /* Lightest red */
+  }
+
+  .semicircle.support:hover
+  {
+    background-color: rgba(21, 150, 128, 0.911);
+  }
+  
+  .app {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 75vh;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .semicircle-section h1{
+   position:absolute;
+   top:30px;
+   left:480px;
+    font-size: 2.5em;
+    border-bottom: 2px solid black;
+    color: #4a4a4a;
+
+  }
+
+  .haunted-container {
+    padding: 70px;
+    padding-top:300px;
+    padding-bottom:100px;
+    
+   
+   position:absolute;
+   left:20px;
+   top:470px;
+   
+  
+}
+
+.vertical-sidebar {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: #18804c8c; /* Sidebar Background Color */
+    padding-top: 20px; /* Adjust as needed */
+}
+
+.vertical-sidebar ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.vertical-sidebar ul li {
+    margin-bottom: 1px;
+    
+    position: relative;
+    font-family: "Exo", sans-serif;
+
+}
+
+.vertical-sidebar ul li a {
+    text-decoration: none;
+    color: #fff; /* Link Color */
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.vertical-sidebar ul li a:hover {
+    background-color: rgba(2, 2, 2, 0.199) ;
+ /* Hover Background Color */
+}
+
+.vertical-sidebar ul li::after {
+    content: ''; /* Add content */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(200% - 100px);
+    width: 100%;
+    height: 1px; /* Height of the line */
+    background-color: #fff; /* Color of the line */}

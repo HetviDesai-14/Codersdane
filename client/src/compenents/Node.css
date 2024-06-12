@@ -1,0 +1,59 @@
+
+.haunted-container {
+    padding: 70px;
+    padding-top:300px;
+    padding-bottom:100px;
+    
+   
+   position:absolute;
+   left:20px;
+   top:470px;
+   
+  
+}
+
+.vertical-sidebar {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: #18804c8c; /* Sidebar Background Color */
+    padding-top: 20px; /* Adjust as needed */
+}
+
+.vertical-sidebar ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.vertical-sidebar ul li {
+    margin-bottom: 1px;
+    
+    position: relative;
+    font-family: "Exo", sans-serif;
+
+}
+
+.vertical-sidebar ul li a {
+    text-decoration: none;
+    color: #fff; /* Link Color */
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.vertical-sidebar ul li a:hover {
+    background-color: rgba(2, 2, 2, 0.199) ;
+ /* Hover Background Color */
+}
+
+.vertical-sidebar ul li::after {
+    content: ''; /* Add content */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(200% - 100px);
+    width: 100%;
+    height: 1px; /* Height of the line */
+    background-color: #fff; /* Color of the line */}

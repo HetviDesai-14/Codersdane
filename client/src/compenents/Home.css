@@ -1,0 +1,128 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poetsen+One&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+.tt
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.acbutton {
+    display: flex;
+    align-items: center;
+    background-color: #1abc9c;
+    color: #ffffff;
+    border: none;
+    padding: 5px 2px;
+    font-size: 18px;
+    padding-left: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 560px;
+}
+
+.acbutton .tt {
+    flex: 6;
+}
+
+.acbutton .icon {
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.icon {
+    font-size: 2.5em;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.acbutton:hover {
+    background-color: #16a085;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-container {
+    flex: 1;
+}
+
+.heading {
+    color: #1abc9c;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 5em;
+    margin-bottom: 10px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 10s steps(30, end) infinite;
+}
+
+.para {
+    color: #34495e;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    top: 350px;
+    font-family: "Oswald", sans-serif;
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+}
+
+.image-container {
+    width: 750px;
+    padding: 20px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+}
+
+.image-container img {
+    width: 700px;
+    height: auto;
+}
+
+.set {
+    font-size: 1.3em;
+    position: absolute;
+    left: 0;
+    top: 600px;
+    right: 1000px;
+    padding: 5px;
+    color: #16a085;
+}
+
+.set > * {
+    margin-right: 25px;
+}
+
+@keyframes typing {
+    0% { width: 0 }
+    20% { width: 0 }
+    40% { width: 100% }
+    80% { width: 100% }
+    100% { width: 0 }
+}

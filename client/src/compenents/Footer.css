@@ -1,0 +1,90 @@
+.footer {
+    background-color: rgb(11, 71, 61); /* Dark blue or ink blue background */
+    color: #ffffff; /* White text color */
+    padding: 20px 20px; /* Increased padding for better spacing */
+    width: 1500px; /* Ensure it covers the full width */
+    position: absolute;
+    top: 3500px;
+    left:0px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px; /* Reduced max-width for better layout */
+    margin: 0 auto;
+    padding: 10px 50px;
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 100px;
+    margin: 10px 0;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #f5f5f5;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #42d4ab; /* Change the link color on hover */
+}
+
+
+.loo{
+    position: absolute;
+    left: 50px;
+}
+
+.Q {
+    background-color: rgb(18, 90, 66);
+    width: 100%; /* Make it cover the full width of the screen */
+    text-align: center; /* Center the text */
+    padding: 0px; /* Padding for spacing */
+    color: white; /* Text color */
+    position: absolute;
+    bottom: 0;
+    left:0px;
+     /* Fix it to the bottom of the page */
+}
+
+.sett
+{
+    margin-top: 190px;
+    position: absolute;
+    left:680px
+
+}
+
+.sett > * {
+    margin-right: 40px;
+  }

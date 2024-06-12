@@ -1,0 +1,225 @@
+.insights-container {
+  font-family: "Exo", sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  color:#555
+  
+}
+
+.header-image-container {
+
+  margin-bottom: 20px;
+  position: absolute;
+  left:0px;
+  top:84px;
+  
+}
+
+.header-image {
+  /* width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.8; */
+
+  object-fit: cover;
+  margin-bottom: 20px;
+  opacity: 0.6;
+  width: 1490px;
+  height: 350px;
+}
+
+.insights-title {
+  font-size: 2.5rem;
+  margin-top: 433px;
+  
+}
+
+.buttoncontainer {
+  /* display: flex;
+  justify-content: center; */
+  margin-bottom: 20px;
+  position: absolute;
+  top:478px;
+  right:372px;
+}
+
+.buttoncontainer button {
+  background-color: #44cbc4;
+  color:white;
+    border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.buttoncontainer button:hover {
+  background-color: black;
+
+}
+
+.search-container {
+  margin-bottom: 40px;
+  padding-top:30px;
+ 
+}
+
+.search-container input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 700px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.card {
+  background: #1eb88794;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin: 0 0 10px;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.hii{
+  position: absolute;
+  top:100px;
+  left:550px;
+  font-size: 3.5em;
+  color:rgba(0, 0, 0, 0.525);
+  font-family: "Exo", sans-serif;
+  
+}
+
+.read
+{
+  position: absolute;
+  left:150px;
+  font-size:1em;
+}
+/* 
+.footer {
+  background-color: hsla(220, 74%, 16%, 1); /* Dark blue or ink blue background 
+  color: #ffffff; /* White text color 
+  padding: 20px 20px; /* Increased padding for better spacing 
+  width: 1500px; /* Ensure it covers the full width 
+  position: absolute;
+  top: 1800px;
+  left:0px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px; /* Reduced max-width for better layout 
+  margin: 0 auto;
+  padding: 10px 50px;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 100px;
+  margin: 10px 0;
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #f5f5f5;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #42d4ab; /* Change the link color on hover 
+}
+
+
+.loo{
+  position: absolute;
+  left: 50px;
+}
+
+.Q {
+  background-color: black;
+  width: 100%; /* Make it cover the full width of the screen 
+  text-align: center; /* Center the text 
+  padding: 0px; /* Padding for spacing 
+  color: white; /* Text color 
+  position: absolute;
+  bottom: 0;
+  left:0px;
+   /* Fix it to the bottom of the page 
+} */

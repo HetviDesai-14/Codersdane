@@ -1,0 +1,137 @@
+/* Services.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poetsen+One&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Services.css */
+
+
+
+
+.services-container {
+   position: absolute;
+   top:1450px;
+   right:0px;
+   display: flex;
+   flex-direction: row;
+    grid-template-columns: repeat(3 1fr);
+    gap: 20px;
+    padding: 150px;
+    background-color: rgba(227, 223, 223, 0.432);
+  }
+  
+  .service-box1 {
+    background-color: #efdaf0;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  .service-box2 {
+    background-color: #d2f7ed;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+
+  .service-box3 {
+    background-color: #f9cea967;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  .service-box h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .service-box p {
+    color: #666;
+  }
+  
+  .heading1
+  {
+    position: absolute;
+    top:-20px;
+    left:560px;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    color: #333;
+      
+   
+  }
+
+
+  .para1
+  {
+    position: absolute;
+    top:100px;
+    left:500px;
+  }
+
+/* 
+  .serbutton
+  {
+    position: absolute;
+    top:510px;
+    left:620px;
+    width: 230px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #42d4ab;
+  
+  } */
+
+  /* styles.css */
+.serbutton {
+    position: absolute;
+    top: 510px;
+    left: 640px;
+    width: 180px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 15px;
+    background-color: #42d4ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+  /* Remove any default button border */
+  }
+  
+  .serbutton a {
+    color: white; /* Text color for the link */
+    text-decoration: none; /* Remove underline from the link */
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon2
+  {
+    font-size: 1.2em; 
+    margin-left:1px;
+    color:white;
+
+  
+  }
+
+  
+  .icon3
+  {
+    font-size: 2em; 
+  }
+  
+

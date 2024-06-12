@@ -1,0 +1,30 @@
+/* src/components/Button.css */
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poetsen+One&display=swap');
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top:20px;
+    right:50px;
+    
+
+  }
+  
+  .button-container button {
+    background-color: #1abc9c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-family: "Freeman", sans-serif;
+  }
+  
+  .button-container button:hover {
+    background-color: #16a085;
+  }
+  
