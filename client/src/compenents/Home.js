@@ -41,7 +41,7 @@ const Home = () => {
       <div className="text-container">
         <h1 className="heading"><span class="caret"></span></h1>
         <p className="para">
-        At Codersdane, we are dedicated to delivering innovative solutions that <br></br>drive success for your business. Our expert team is committed to<br></br> providing top-notch services tailored to meet the unique needs of each client.<br></br> Whether you're looking for cutting-edge technology solutions, strategic consulting,<br></br> or exceptional customer support,we are here to help you achieve your goals.<br></br>
+        At Codersdane, we are dedicated to delivering innovative solutions that hetvi<br></br>drive success for your business. Our expert team is committed to<br></br> providing top-notch services tailored to meet the unique needs of each client.<br></br> Whether you're looking for cutting-edge technology solutions, strategic consulting,<br></br> or exceptional customer support,we are here to help you achieve your goals.<br></br>
         </p>
         <button className="acbutton">
           <Link to="/contact" className="tt">Let's Work Together</Link>
