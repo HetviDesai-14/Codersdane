@@ -1,5 +1,6 @@
 const nodemailer = require('nodemailer');
 const Contact = require('../models/contact-model');
+const someModule = require('./someModule'); 
 
 const transporter = nodemailer.createTransport({
     service: 'Gmail', // or any other email service
